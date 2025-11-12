@@ -1,4 +1,3 @@
-
 # https://github.com/notfeardan/lab11-DB-PB
 # Partner 1: Daniil Baturyn
 # Partner 2: Pavel Baturyn

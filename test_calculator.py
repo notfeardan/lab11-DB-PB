@@ -46,7 +46,7 @@ class TestCalculator(unittest.TestCase):
     ######## Partner 1
     def test_log_invalid_argument(self): # 1 assertion
         with self.assertRaises(ValueError):
-            logarithm(2, -5)  # invalid argument (b <= 0)
+            logarithm(2, -5)  
 
     def test_hypotenuse(self): # 3 assertions
         self.assertAlmostEqual(hypotenuse(3, 4), 5.0)
@@ -57,7 +57,7 @@ class TestCalculator(unittest.TestCase):
         self.assertAlmostEqual(square_root(4), 2.0)
         self.assertAlmostEqual(square_root(9), 3.0)
         with self.assertRaises(ValueError):
-            square_root(-1)  # invalid argument (a < 0)
+            square_root(-1)  
     ##########################
 
 # Do not touch this

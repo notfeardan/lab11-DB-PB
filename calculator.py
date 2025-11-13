@@ -24,14 +24,17 @@ def add(a, b):
 def sub(a, b):   
     return a - b
 
+def subtract(a, b):   
+    return a - b
+
 def mul(a, b):
     return a * b
 
 def div(a, b):
-    """Return a divided by b. Raise ZeroDivisionError if b == 0."""
+    """Return b divided by a. Raise ZeroDivisionError if b == 0."""
     if b == 0:
         raise ZeroDivisionError("Cannot divide by zero.")
-    return a / b
+    return b / a
 
 def logarithm(a, b):
     if a <= 0 or a == 1 or b <= 0:
